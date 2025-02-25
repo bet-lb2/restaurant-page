@@ -1,5 +1,5 @@
-export const displayContactPage = () => {
-    const h1 = document.createElement("h1");
-    h1.textContent = "This is home page";
-    return h1;
+export const displayHomePage = () => {
+    const div = document.createElement("div");
+    div.textContent = "This is home page";
+    return div;
 }
